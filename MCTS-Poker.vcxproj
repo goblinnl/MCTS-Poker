@@ -76,9 +76,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Card.hpp" />
     <ClInclude Include="MCTS-Poker.h" />
     <ClInclude Include="Resource.h" />
