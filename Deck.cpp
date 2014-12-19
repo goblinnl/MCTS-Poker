@@ -1,6 +1,6 @@
+// Internal
 #include "stdafx.h"
 #include "Deck.hpp"
-
 
 
 /**
@@ -142,6 +142,14 @@ void Deck::setDeck( )
 	deck.push_back( c50 );
 	deck.push_back( c51 );
 	deck.push_back( c52 );
+}
+
+/**
+ * Clears deck to its initial state.
+ */
+void Deck::clear( )
+{
+	deck.clear( );
 }
 
 /**

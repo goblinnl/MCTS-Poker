@@ -154,3 +154,16 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+
+#Specific files ignore
+MCTS-Poker.sln
+MCTS-Poker.v12.suo
+MCTS-Poker.vcxproj
+MCTS-Poker.vcxproj.filters
+MCTS-Poker.rc
+MCTS-Poker.sdf
+MCTS-Poker.opensdf
+MCTS-Poker.ico
+small.ico
+Resource.h
+targetver.h
