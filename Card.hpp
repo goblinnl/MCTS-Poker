@@ -20,7 +20,7 @@ class Card
 
 		// Overload equals comparison if two cards are equal
 		friend bool operator== ( Card& card1, Card& card2 );
-		friend std::ostream& operator<< ( std::ostream& output, Card &printCard );
+		friend std::ostream& operator<< ( std::ostream& output, Card &outputCard );
 		friend bool operator> ( Card& card1, Card& card2 );
 		friend bool operator< ( Card& card1, Card& card2 );			
 
