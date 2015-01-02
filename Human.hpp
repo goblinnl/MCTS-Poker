@@ -7,18 +7,17 @@
 #include <string>
 
 
-
 class Human {
 	public:
 		Human( );
-		Human( int human );
+		Human( int chipCount );
 		~Human( );
 		
-		void addMoney( int amount );
+		
 		void tablePoint( std::map<std::string, double> * mapPoint );
 
 		
-		double getAggressiveness( );
+		double getStrength( );
 		double getTightness( );
 		double getCardWeight( );
 		double getMoney( );
@@ -26,18 +25,17 @@ class Human {
 		bool getFold( );
 		std::map<std::string, double>* getWeight( );
 
-
+		void setMoney( int amount );
 		void setBusted( );
 		void setUnfold( );
-		void setWeights( );
 		void setFlop( );
 		void setFoldBeforeFlop( );
+		void setFold( );
 
-
-		void fold( );
+		
 		void raiseBet( double amount );
 		void checkCall( double amount );
-		void isWon( double amount );
+		void isWinning( double amount );
 
 	private:
 		std::map<std::string, double>* mWeightTable;
@@ -49,5 +47,4 @@ class Human {
 		bool mOut;
 		bool mBust;		
 };
-
 #endif

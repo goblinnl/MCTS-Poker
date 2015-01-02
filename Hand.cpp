@@ -10,7 +10,12 @@ Hand::Hand( ) : mValid( false )
 
 }
 
-// TODO Set hand FIXING (Add Iterator)
+/**
+ * Sets a poker hand.
+ *
+ * @param [in,out] table The table (Croupier).
+ * @param [in,out] hole  The hole (Type of card).
+ */
 void Hand::setHand( std::vector<Card>& table, std::vector<Card>& hole )
 {
 	Card card( 'A', 'h' );
@@ -172,7 +177,6 @@ void Hand::clear( )
 
 /**
  * Query if 'hand' is straight.
- *
  *
  * @param hand		    The hand.
  * @param [in,out] type The cardtype.
