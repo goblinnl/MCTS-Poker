@@ -19,8 +19,6 @@ class Deck : public Card {
 		void clear( );
 		void shuffleDeck( );
 
-		//void removeCards( std::vector<Card> toRemoved );
-
 		// Vector of cards
 		std::vector<Card> deck;
 	
