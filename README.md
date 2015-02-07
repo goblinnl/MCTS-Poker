@@ -4,7 +4,7 @@ This engine is built to find clusters of player types in poker games and learn o
 
 
 <h4>Why Poker?</h4>
-Poker is a non-deterministic game of imperfect information. Computers have had only limited success in games of this type so far, whereas they are playing at human grandmaster level in many deterministic or perfect information games. Poker is challenging because of a large number of interesting properties like incomplete knowledge, multiple competing agents, risk management, opponent modelling, deception and dealing with unreliable information. 
+Poker is a non-deterministic game of imperfect information. The current progress on Poker with computers wasn't a huge success, while in many other games, computer are at the same level as the human grandmasters level in many deterministic or perfect information games. Poker as such poses a very challenging challenge with a large number of interesting properties. 
 
 <h4>Project State</h4>
 Currently in development, the due date for this project is (2015-01-30)
